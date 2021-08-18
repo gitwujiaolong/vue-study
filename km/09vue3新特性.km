@@ -1,0 +1,220 @@
+{
+    "root": {
+        "data": {
+            "id": "cdlq66cewn40",
+            "created": 1629197097771,
+            "text": "vue 3.0",
+            "note": "* "
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cdlqtya1mjs0",
+                    "created": 1629198960954,
+                    "text": "更快"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cdlquevy05s0",
+                            "created": 1629198997107,
+                            "text": "重写虚拟DOM"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cdlqul380v40",
+                            "created": 1629199010607,
+                            "text": "优化slots的生成"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdmf4gc5aiw0",
+                                    "created": 1629267490542,
+                                    "text": "h(comp,null,{default:()=>[h('div',this.hello)]})"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cdlqvwahq6g0",
+                            "created": 1629199113356,
+                            "text": "静态树的提升"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdmf0cjh7wo0",
+                                    "created": 1629267168822,
+                                    "text": "标记"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cdmf5vffo8g0",
+                                            "created": 1629267601757,
+                                            "text": "将静态节点做了缓存"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cdlqw00sjfs0",
+                            "created": 1629199121476,
+                            "text": "静态属性提升"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdmf0e1hz540",
+                                    "created": 1629267172088,
+                                    "text": "标记"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cdmf63ydt9c0",
+                                            "created": 1629267620317,
+                                            "text": "将静态属性id、class做了缓存"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cdlqw4b6di80",
+                            "created": 1629199130811,
+                            "text": "Proxy的响应系统"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdmf7k4m36w0",
+                                    "created": 1629267733887,
+                                    "text": "初始化速度增强和内存优化"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cdlqu100d4w0",
+                    "created": 1629198966877,
+                    "text": "更小"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cdlqwa96xrc0",
+                            "created": 1629199143752,
+                            "text": "通过摇树优化核心库体积"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cdlqu2wzpo80",
+                    "created": 1629198971049,
+                    "text": "更容易维护"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cdlqwou1qo00",
+                            "created": 1629199175488,
+                            "text": "ts+模块化"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdmf89m0u1c0",
+                                    "created": 1629267789359,
+                                    "text": "编译器都已经模块化"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cdlqu6bhjoo0",
+                    "created": 1629198978455,
+                    "text": "更加友好"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cdlqxdr61880",
+                            "created": 1629199229733,
+                            "text": "编译器核心和运行时核心与平台无关，使vue更容易其他平台一起使用"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cdlqx1jvik80",
+                    "created": 1629199203171,
+                    "text": "更容易使用"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cdlqxuu0w1c0",
+                            "created": 1629199266912,
+                            "text": "改进ts支持"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cdlqxxdj8080",
+                            "created": 1629199272445,
+                            "text": "Composition API"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdmf1p6g3v40",
+                                    "created": 1629267274696,
+                                    "text": "逻辑复用，类似react hooks"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cdlqy4q3btk0",
+                            "created": 1629199288442,
+                            "text": "独立的响应化模块"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-purple",
+    "version": "1.4.43"
+}

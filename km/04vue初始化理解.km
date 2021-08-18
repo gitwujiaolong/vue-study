@@ -1,0 +1,380 @@
+{
+    "root": {
+        "data": {
+            "id": "cdlkkb59x1s0",
+            "created": 1629181278663,
+            "text": "new Vue",
+            "font-family": "arial,helvetica,sans-serif"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cdlkkjp90480",
+                    "created": 1629181297285,
+                    "text": "this._init",
+                    "layout": null,
+                    "font-family": "arial,helvetica,sans-serif"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cdlkn2s828w0",
+                            "created": 1629181495552,
+                            "text": "initMixin",
+                            "layout": null,
+                            "font-family": "arial,helvetica,sans-serif"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdlknnbtsrk0",
+                                    "created": 1629181540273,
+                                    "text": "选项合并",
+                                    "layout": null,
+                                    "font-family": "arial,helvetica,sans-serif"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cdlkozquze00",
+                                            "created": 1629181645667,
+                                            "text": "componnents|directives|filters|_base",
+                                            "layout": null,
+                                            "font-family": "arial,helvetica,sans-serif"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cdlktesd1gw0",
+                                    "created": 1629181991866,
+                                    "text": "initLifecycle",
+                                    "layout": null,
+                                    "font-family": "arial,helvetica,sans-serif"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cdlktjwj4k00",
+                                            "created": 1629182003002,
+                                            "text": "$parent|$children|$root|$refs",
+                                            "layout": null,
+                                            "font-family": "arial,helvetica,sans-serif"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cdlknqrkd8w0",
+                                    "created": 1629181547755,
+                                    "text": "initEvents",
+                                    "layout": null,
+                                    "font-family": "arial,helvetica,sans-serif"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cdlkv4wyw000",
+                                            "created": 1629182127105,
+                                            "text": "处理自定义事件",
+                                            "layout": null,
+                                            "font-family": "arial,helvetica,sans-serif"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cdlkwao23kw0",
+                                    "created": 1629182217991,
+                                    "text": "initRender",
+                                    "layout": null,
+                                    "font-family": "arial,helvetica,sans-serif"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cdlkwdwm8u80",
+                                            "created": 1629182225039,
+                                            "text": "$slots | $createElement | $attrs | $listeners|",
+                                            "layout": null,
+                                            "font-family": "arial,helvetica,sans-serif"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cdlkx956qk00",
+                                    "created": 1629182293038,
+                                    "text": "callHook(vm,'beforeCreate')",
+                                    "layout": null,
+                                    "font-family": "arial,helvetica,sans-serif"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cdlkxjevzgw0",
+                                    "created": 1629182315392,
+                                    "text": "initInjections",
+                                    "layout": null,
+                                    "font-family": "arial,helvetica,sans-serif"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cdlkxua39yw0",
+                                            "created": 1629182339047,
+                                            "text": "处理祖辈provide的数据",
+                                            "layout": null,
+                                            "font-family": "arial,helvetica,sans-serif"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cdlky0tcw0w0",
+                                    "created": 1629182353272,
+                                    "text": "initState",
+                                    "layout": null,
+                                    "font-family": "arial,helvetica,sans-serif",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cdlky6woj5c0",
+                                            "created": 1629182366534,
+                                            "text": "initProps | initMethods | initComputed | initProvide | initWatch",
+                                            "layout": null,
+                                            "font-family": "arial,helvetica,sans-serif"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "cdlkyq54js00",
+                                            "created": 1629182408404,
+                                            "text": "initData",
+                                            "layout": null,
+                                            "font-family": "arial,helvetica,sans-serif"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cdll0u49cq80",
+                                                    "created": 1629182573787,
+                                                    "text": "observe(data)"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "cdll0xo3ovs0",
+                                                            "created": 1629182581517,
+                                                            "text": "def(value,'__ob__')"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "cdll157cr4w0",
+                                                            "created": 1629182597918,
+                                                            "text": "walk"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "cdll18micrk0",
+                                                                    "created": 1629182605365,
+                                                                    "text": "defineReactive"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "cdll1bygjpk0",
+                                                                            "created": 1629182612618,
+                                                                            "text": "object.defineProperty"
+                                                                        },
+                                                                        "children": [
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "cdll1hx6sls0",
+                                                                                    "created": 1629182625602,
+                                                                                    "text": "get"
+                                                                                },
+                                                                                "children": [
+                                                                                    {
+                                                                                        "data": {
+                                                                                            "id": "cdll1kqxpds0",
+                                                                                            "created": 1629182631754,
+                                                                                            "text": "dep.deppend"
+                                                                                        },
+                                                                                        "children": []
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "cdll1jdtafc0",
+                                                                                    "created": 1629182628784,
+                                                                                    "text": "set"
+                                                                                },
+                                                                                "children": [
+                                                                                    {
+                                                                                        "data": {
+                                                                                            "id": "cdll1nf2b340",
+                                                                                            "created": 1629182637567,
+                                                                                            "text": "dep.notify"
+                                                                                        },
+                                                                                        "children": []
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cdll1s4o95s0",
+                                    "created": 1629182647822,
+                                    "text": "initProvider"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cdll1yqzl1k0",
+                                    "created": 1629182662232,
+                                    "text": "callHook(vm,'created')"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cdll28dgnkw0",
+                            "created": 1629182683182,
+                            "text": "stateMixin"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdll2l3btxc0",
+                                    "created": 1629182710868,
+                                    "text": "$data | $props| $set | $delete | $watch"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cdll2ct35cg0",
+                            "created": 1629182692834,
+                            "text": "eventMixin"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdll3csj8vk0",
+                                    "created": 1629182771165,
+                                    "text": "$on | $emit | $once | $off"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cdll3zb5ac80",
+                            "created": 1629182820180,
+                            "text": "lifecycelMixin"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdll43zct1c0",
+                                    "created": 1629182830350,
+                                    "text": "_update"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cdll8rm481c0",
+                                            "created": 1629183195249,
+                                            "text": "__patch__"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cdll46i1p8g0",
+                                    "created": 1629182835834,
+                                    "text": "$forceUpdate"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cdll49l741k0",
+                                    "created": 1629182842555,
+                                    "text": "$destroy"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cdll4e1kvfs0",
+                            "created": 1629182852253,
+                            "text": "renderMixin"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdll4gdeu2g0",
+                                    "created": 1629182857322,
+                                    "text": "_render"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cdll4it5oh40",
+                                    "created": 1629182862627,
+                                    "text": "$nextTick"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-pink",
+    "version": "1.4.43"
+}

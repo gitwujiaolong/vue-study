@@ -1,0 +1,58 @@
+{
+    "root": {
+        "data": {
+            "id": "cdmgyeo634w0",
+            "created": 1629272658951,
+            "text": "vue响应式"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cdmgyrqldm80",
+                    "created": 1629272687395,
+                    "text": "什么是响应式",
+                    "note": "#### 定义\n* 使我们数据能被检测到访问和变化并对变化做出响应的机制。\n* 解决通过数据驱动，视图更新\n"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cdmgyvksqn40",
+                    "created": 1629272695752,
+                    "text": "为什么需要响应式"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cdmgyxpiit40",
+                    "created": 1629272700391,
+                    "text": "带来什么好处",
+                    "note": "#### 好处\n* 通过响应式加上虚拟DOM和Patch算法，我们只需要操作数据，不用频繁dom操作，极大提升开发效率，降低开发难度。\n\n* 当感应到数据变化后，会通知当前组件watcher入队并且执行更新，把组件通过渲染函数返回虚拟DOM，并做Patch，做最小化更新并执行DOM操作。"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cdmgz0tl2q00",
+                    "created": 1629272707167,
+                    "text": "怎么实现？有哪些优缺点",
+                    "note": "#### \n* 对象采用Object.defineProperty的方式拦截\n* 数组通过覆盖该数组原型，扩展他的7个变更方法，使这些方法可以额外的做更新通知，从而做出响应，\n\n* 初始化时的递归遍历会造成性能损失，新增或者删除属性要使用Vue.set/delete使数据增加响应式。\n* 对于es6中新产生的Map、Set这些数据结构不支持等问题。"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cdmgz7ms5j40",
+                    "created": 1629272721994,
+                    "text": "vue3中响应式新变化",
+                    "note": "#### vue3优化\n* 利用Proxy机制代理要响应化的数据，在使用时再代理，初始化性能和内存消耗大幅提升。写程序的时候也不需要特殊的api了\n* 响应化的实现抽取为独立的reactive 包\n\n"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-purple",
+    "version": "1.4.43"
+}

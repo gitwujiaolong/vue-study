@@ -1,0 +1,106 @@
+{
+    "root": {
+        "data": {
+            "id": "cdlomldrluw0",
+            "created": 1629192742112,
+            "text": "vue"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cdloocgujmo0",
+                    "created": 1629192879435,
+                    "text": "渐进式"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cdloohy104g0",
+                            "created": 1629192891358,
+                            "text": "组件体系"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdloojypo3k0",
+                                    "created": 1629192895753,
+                                    "text": "cli工具"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cdloogvx0o80",
+                    "created": 1629192889054,
+                    "text": "易用性"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cdlootnlkaw0",
+                            "created": 1629192916849,
+                            "text": "js、html、css就可以用"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cdlop40cuig0",
+                            "created": 1629192939388,
+                            "text": "只关心核心业务"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cdlopt0k6g00",
+                    "created": 1629192993820,
+                    "text": "灵活性"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cdloq19t5hk0",
+                    "created": 1629193011794,
+                    "text": "高效性"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cdloq3vc6gg0",
+                            "created": 1629193017449,
+                            "text": "虚拟DOM"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cdloq736mts0",
+                            "created": 1629193024454,
+                            "text": "diff算法"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cdloqbco0zk0",
+                            "created": 1629193033734,
+                            "text": "vue3 Proxy更加高效"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-purple",
+    "version": "1.4.43"
+}

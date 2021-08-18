@@ -1,0 +1,143 @@
+{
+    "root": {
+        "data": {
+            "id": "cdlgida9gyw0",
+            "created": 1629169842150,
+            "text": "vue组件"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cdlgjwr3syo0",
+                    "created": 1629169962891,
+                    "text": "template"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cdlgjym7cyg0",
+                            "created": 1629169966948,
+                            "text": "vue-loader"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdlgk7u9dpc0",
+                                    "created": 1629169987027,
+                                    "text": "render函数"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cdlgm2qtd600",
+                    "created": 1629170132663,
+                    "text": "$mount",
+                    "expandState": "expand",
+                    "note": "* 每个组件mount时实例化一个Watcher"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cdlgrjy1r9c0",
+                            "created": 1629170561926,
+                            "text": "compileToFunctions(template)"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdlgrvxns2o0",
+                                    "created": 1629170588024,
+                                    "text": "render函数"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cdlgkadi7g00",
+                            "created": 1629169992544,
+                            "text": "mountComponent"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdlgkirp4go0",
+                                    "created": 1629170010816,
+                                    "text": "updateComponent=()=>vm._update(vm._render())",
+                                    "note": "``` javascript\nupdateComponent=()=>{\n\tvm._update(vm._render())\n}\n```"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cdlkbh14a5s0",
+                                            "created": 1629180586194,
+                                            "text": "vm.__patch__"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cdlgm7jav9s0",
+                            "created": 1629170143092,
+                            "text": "new Watcher(vm,updateComponent)",
+                            "layout_right_offset": {
+                                "x": 0,
+                                "y": 13
+                            }
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cdlgoi4draw0",
+                    "created": 1629170322863,
+                    "text": "patch",
+                    "note": "* vue初始化中，碰到自定义组件，再次实例化子组件，走$mount"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cdlgones2ps0",
+                            "created": 1629170334376,
+                            "text": "createComponent"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdlgpbduiw00",
+                                    "created": 1629170386562,
+                                    "text": "创建组件实例"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cdlgpkztojc0",
+                                            "created": 1629170407482,
+                                            "text": "再次$mount"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-purple",
+    "version": "1.4.43"
+}

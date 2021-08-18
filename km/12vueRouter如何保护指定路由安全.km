@@ -1,0 +1,109 @@
+{
+    "root": {
+        "data": {
+            "id": "cdmg02ojuko0",
+            "created": 1629269968471,
+            "text": "vue-router"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cdmg0cahjo80",
+                    "created": 1629269989388,
+                    "text": "路由保护策略",
+                    "note": "* 路由守卫 beforeEach  beforeEnter,判断用用户登录状态和权限。\n* router.beforeEach((to,from,next)=>{})\n* next( false | path)\n* 路由独享守卫 beforeEnter\n* 组件守卫 beforeRouteEnter\n\n小结：全局是每次导航执行，路由守卫只会在路由触发时才执行，组件"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cdmgcgtx3og0",
+                            "created": 1629270939640,
+                            "text": "全局独享 beforeEach"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdmgn95u4jk0",
+                                    "created": 1629271784952,
+                                    "text": "next 如何实现"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cdmgcm0czn40",
+                            "created": 1629270950914,
+                            "text": "路由独享 beforeEnter"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cdmgcngfj8w0",
+                            "created": 1629270954062,
+                            "text": "组件守卫 beforeRouteEnter"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cdmg0h83xzk0",
+                    "created": 1629270000128,
+                    "text": "实现方式"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cdmgls3sja00",
+                            "created": 1629271669459,
+                            "text": "history api"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdmgm4vg9a00",
+                                    "created": 1629271697253,
+                                    "text": "popstate"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cdmglu60rm00",
+                            "created": 1629271673948,
+                            "text": "hash  "
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdmgm1c3b1c0",
+                                    "created": 1629271689552,
+                                    "text": "hashChange"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cdmg0inrlsw0",
+                    "created": 1629270003252,
+                    "text": "如何生效",
+                    "note": "* beforeEach是注册的一个hook，当路由发生变化，优先执行钩子，并把目标路由to，当前路由from，以及后续处理函数 next，传递给我们设置的hook."
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-purple",
+    "version": "1.4.43"
+}

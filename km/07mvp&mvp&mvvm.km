@@ -1,0 +1,99 @@
+{
+    "root": {
+        "data": {
+            "id": "cdlot16fqi00",
+            "created": 1629193246682,
+            "text": "mv*"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cdlpxoj91ow0",
+                    "created": 1629196432089,
+                    "text": "mvc"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cdlpzdxcdrc0",
+                            "created": 1629196565725,
+                            "text": "早期java 、asp.net、php",
+                            "note": "* 没有前端，后端全干，效率低下。"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdlpzougga80",
+                                    "created": 1629196589495,
+                                    "text": "数据"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cdlpzqlycbk0",
+                                    "created": 1629196593335,
+                                    "text": "视图"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cdlpztttl0g0",
+                                    "created": 1629196600341,
+                                    "text": "业务"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cdlpxqu63zs0",
+                    "created": 1629196437103,
+                    "text": "mvp"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cdlpxruye200",
+                    "created": 1629196439328,
+                    "text": "mvvm",
+                    "note": "性能好"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cdlq4e3qqxs0",
+                            "created": 1629196957933,
+                            "text": "vue"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cdlq4g5azc80",
+                            "created": 1629196962381,
+                            "text": "angular"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cdlq4jus2zc0",
+                            "created": 1629196970452,
+                            "text": "react"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-purple",
+    "version": "1.4.43"
+}

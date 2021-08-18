@@ -1,0 +1,140 @@
+{
+    "root": {
+        "data": {
+            "id": "cdmfmrfs7740",
+            "created": 1629268925262,
+            "text": "vue组件通信"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cdmfomzosjc0",
+                    "created": 1629269072310,
+                    "text": "父子通信",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cdmfn9iln3k0",
+                            "created": 1629268964614,
+                            "text": "props"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cdmfnb590hc0",
+                            "created": 1629268968161,
+                            "text": "$emit | $ on"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cdmfnkyn2nk0",
+                            "created": 1629268989529,
+                            "text": "$chilren | $parent"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cdmfnpzht8o0",
+                            "created": 1629269000464,
+                            "text": "$attrs | $listeners"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdmfvw8edio0",
+                                    "created": 1629269640977,
+                                    "text": "子组件 <Comp v-bind=\"$attrs\" v-on=\"$listeners\"/>"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cdmfnubus9s0",
+                            "created": 1629269009919,
+                            "text": "ref"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cdmfqlgqybc0",
+                    "created": 1629269225716,
+                    "text": "兄弟组件"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cdmfqs3oxe00",
+                            "created": 1629269240164,
+                            "text": "$parent | $root"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cdmfqy2kzp40",
+                            "created": 1629269253158,
+                            "text": "eventBus"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cdmfr0bzzqw0",
+                            "created": 1629269258081,
+                            "text": "vuex"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cdmfr8kbq940",
+                    "created": 1629269275999,
+                    "text": "跨层级"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cdmfrbr22cg0",
+                            "created": 1629269282936,
+                            "text": "eventBus"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cdmfreej5eo0",
+                            "created": 1629269288709,
+                            "text": "vuex"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cdmfrfkmleg0",
+                            "created": 1629269291254,
+                            "text": "provide / inject",
+                            "note": "* 只能从祖辈到子备传值。"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-purple",
+    "version": "1.4.43"
+}

@@ -1,0 +1,167 @@
+{
+    "root": {
+        "data": {
+            "id": "cdlq5vaa9hc0",
+            "created": 1629197073698,
+            "text": "vue性能优化"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cdlq6m9stc00",
+                    "created": 1629197132442,
+                    "text": "路由懒加载"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cdlq6w8v5uo0",
+                            "created": 1629197154153,
+                            "text": "()=>import('./xxx.vue')"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cdlq6q51bdk0",
+                    "created": 1629197140861,
+                    "text": "keep-live缓存页面"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cdlq75a4y280",
+                            "created": 1629197173821,
+                            "text": "<keep-live></keep-live>"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cdlq7nm974w0",
+                    "created": 1629197213736,
+                    "text": "巧妙运用v-if & v-show"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cdlq8i2ed0g0",
+                    "created": 1629197280016,
+                    "text": "v-for 不与 v-if共用，改为计算属性过滤数据"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cdlq8t8iy5c0",
+                    "created": 1629197304331,
+                    "text": "长列表优化"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cdlq91j3rx40",
+                            "created": 1629197322385,
+                            "text": "object.freeze(xxx)",
+                            "note": "冻结数据，不做响应式，数据不变。"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cdlq9i03p5s0",
+                            "created": 1629197358241,
+                            "text": "虚拟滚动"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdlq9meksps0",
+                                    "created": 1629197367823,
+                                    "text": "<recycle-scroller>",
+                                    "note": "* 只显示滚动区域内的内容。\n* vue-virtual-scoller\n* vue-virtual-scroll-list\n"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cdlqai0zjb40",
+                    "created": 1629197436659,
+                    "text": "事件、定时器销毁"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cdlqaqsteao0",
+                            "created": 1629197455756,
+                            "text": "beforeDestroy(){xxxx}"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cdlqaz349mg0",
+                    "created": 1629197473793,
+                    "text": "图片懒加载 vue-lazyload"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cdlqbudc6w00",
+                            "created": 1629197541891,
+                            "text": "<img v-lazy=\"xxx.png\"/>"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cdlqjedfxbc0",
+                    "created": 1629198133982,
+                    "text": "框架库按需引入"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cdlqk3gkw9s0",
+                    "created": 1629198188591,
+                    "text": "合理运用functional vue函数式组件"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cdlqkhjs5f40",
+                            "created": 1629198219260,
+                            "text": "<template functional>"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cdlqn8qqj080",
+                    "created": 1629198435182,
+                    "text": "SSR 首屏预渲染"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-purple",
+    "version": "1.4.43"
+}

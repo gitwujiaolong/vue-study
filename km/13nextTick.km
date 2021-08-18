@@ -1,0 +1,32 @@
+{
+    "root": {
+        "data": {
+            "id": "cdmgnzrlw5k0",
+            "created": 1629271842865,
+            "text": "nextTick"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cdmgo5pl2tc0",
+                    "created": 1629271855804,
+                    "text": "干什么",
+                    "note": "##### 定义\n* 全局API。this.$nextTick\n* Vue.nextTick(callback,context)\n* 在下次DOM更新完之后延迟回调，修改数据，获取更新后的DOM。\n\n\n``` javascript\n  vm.msg = '123'\n  this.$nextTick(()=>{\n      //可以获取最新的msg\n  })\n```\n"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cdmgo7f8omg0",
+                    "created": 1629271859532,
+                    "text": "原理",
+                    "note": "#### 原理\n* 由于vue的异步更新策略，修改完数据并不会立刻改变，会将该数据改变的watcher 放到一个微任务队列，并在下一次事件循环时再执行.nextTick会在队列中假如一个回调函数，确保该函数前边DOM操作执行完后执行。\n\n* 实现：将我们传的函数放入callbacks数组，然后用Promise、setTimeOut，去调用他们，。"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-purple",
+    "version": "1.4.43"
+}

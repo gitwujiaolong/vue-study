@@ -1,0 +1,59 @@
+{
+    "root": {
+        "data": {
+            "id": "cdmf9sr4ns00",
+            "created": 1629267909391,
+            "text": "vuex",
+            "note": "* 集中式管理所有组件状态\n* 在Mutation层做了拦截，可预测\n* 解决了全局状态和多组件状态共享的问题。\n* 保证数据单向流动，让代码结构化容易维护\n* 全局状态多、规模大时就需要\n\n``` javascript\n\nclass Store {\n\tconstructor(options) {\n    // 1.保存选项\n    this._mutations = options.mutations;\n    this._actions = options.actions;\n\n    // 2.暴露state属性, 并对传入state选项做响应式处理\n    // Vue.util.defineReactive(this, \"state\", this.$options.state);\n    // _vm希望用户明白，不要访问它\n    this._vm = new Vue({\n      data() {\n        return {\n          // 加上$$避免Vue对该属性做代理\n          // this._vm.counter这样是不行的\n          $$state: options.state\n        }\n      },\n    })\n\n    // 绑定上下文，确保是store实例\n    this.commit = this.commit.bind(this)\n    this.dispatch = this.dispatch.bind(this)\n  }\n\n  get state() {\n    return this._vm._data.$$state\n  }\n\n  set state(v) {\n    console.error('please use replaceState to reset state');\n  }\n\n  // $store.commit(type, payload)\n  commit(type, payload) {\n    const entry = this._mutations[type]\n    if (!entry) {\n      console.error('unknown mutation!');\n      return\n    }\n    entry(this.state, payload)\n  }\n\n  dispatch(type, payload) {\n    const entry = this._actions[type]\n    if (!entry) {\n      console.error('unknown action!');\n      return\n    }\n    entry(this, payload)\n  }\n\t\n}\n\nfunction install(_Vue) {\n  Vue = _Vue;\n\n  // 注册$store\n  Vue.mixin({\n    beforeCreate() {\n      if (this.$options.store) {\n        Vue.prototype.$store = this.$options.store;\n      }\n    },\n  });\n}\n\n```"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cdmfahp6i740",
+                    "created": 1629267963692,
+                    "text": "Vue Comp"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cdmfas4bk9c0",
+                            "created": 1629267986376,
+                            "text": "disptch Actions"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cdmfavyyjhc0",
+                                    "created": 1629267994759,
+                                    "text": "commit Mutations"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cdmfb5p2tko0",
+                                            "created": 1629268015929,
+                                            "text": "Mutate State"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "cdmfbaacwls0",
+                                                    "created": 1629268025923,
+                                                    "text": "Render Comp"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-purple",
+    "version": "1.4.43"
+}
